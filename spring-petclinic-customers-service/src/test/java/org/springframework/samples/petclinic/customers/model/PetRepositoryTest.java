@@ -52,6 +52,7 @@ public class PetRepositoryTest {
         assertEquals("Bird", found.get().getName());
     }
 
+    // Test
     @Test
     @DisplayName("findPetTypeById() should return empty when ID not found")
     void testFindPetTypeById_NotFound() {

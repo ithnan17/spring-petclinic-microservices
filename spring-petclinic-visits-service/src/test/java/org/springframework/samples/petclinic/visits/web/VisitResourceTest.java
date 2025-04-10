@@ -67,7 +67,7 @@ class VisitResourceTest {
 
     @Test
     void createVisit_shouldReturnCreatedVisit() throws Exception {
-        //hello, im Quy
+        //hello, im Quy Dang
         Visit visit = new Visit();
         visit.setPetId(1);
         visit.setDescription("Checkup");
